@@ -8,9 +8,9 @@
   - 메세지 input
   - send button
   
-- 용어사전페이지
+- ~~용어사전페이지~~
 
-  - Api 주소로 들어가 입력한 번호의 뜻을 보여줌
+  - ~~Api 주소로 들어가 입력한 번호의 뜻을 보여줌~~
 
 - 받은메세지함
 
@@ -29,12 +29,6 @@
 - 회원가입
   1. 휴대전화번호 입력 및 인증
   2. Id 만들기(자동생성 또는 여섯자리의 숫자?)
-  
-- 글 읽기
-  1. 메인페이지의 글 목록에서 글 클릭
-  2. 목록에는 글 제목, 작성일, 댓글 수, 태그가 표시됨
-  3. 제목 클릭하면 해당 글로 이동
-  4. 상세 화면에는 제목, 작성일, 댓글들, 태그들, 내용(md기반)
   
   
 
@@ -110,6 +104,16 @@
 ### 11.19 PM05:20
 
 - 삐삐 용어 사전 페이지 만듦(api에서 데이터 가져와서 화면에 출력)
-![image](https://user-images.githubusercontent.com/50814969/69129061-ffe75180-0af0-11ea-9720-78dd0cf15c56.png)
-![image](https://user-images.githubusercontent.com/50814969/69129070-04136f00-0af1-11ea-898d-70ffc98d8ad4.png)
+<img src="https://user-images.githubusercontent.com/50814969/69129061-ffe75180-0af0-11ea-9720-78dd0cf15c56.png" alt="image" style="zoom: 25%;" /> <img src="https://user-images.githubusercontent.com/50814969/69129070-04136f00-0af1-11ea-898d-70ffc98d8ad4.png" alt="image" style="zoom:25%;" />
 
+### 11.20
+
+- [Firebase 사용(bbibbi-firebase)](https://firebase.google.com/docs/auth/ios/phone-auth?hl=ko)
+
+
+
+### 11.21
+
+- 휴대폰으로 회원가입 및 인증 완료
+  - 13버전에서는 firebase인증이 되지 않는다. 12버전은 된다.(시뮬레이터로만 테스트, 그래서 문자 오는 것은 확인하지 못했지만 firebase varify에서 redirect됨)
+- 해야할 일 : Login UI 만들기, 통신 공부하기
