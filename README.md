@@ -133,3 +133,12 @@
 - UserDefaults를 이용해 id set 함
 - 인증서 추가함(push 인증서)
   - 자동로그인, 통신
+
+
+
+### 11.24
+
+- firebase database를 이용해 메세지와 user 저장
+
+  
+
