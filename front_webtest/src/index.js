@@ -22,7 +22,7 @@ class App extends React.Component {
 
   componentDidMount() {
     //API를 찔러서 데이터를 가져오는 일을 합니다.
-    const url = "http://localhost:3000/";
+    const url = "https://bbibbi.herokuapp.com/";
     this.getData(url);
   }
 
